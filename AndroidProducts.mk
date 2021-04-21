@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2021 ArrowOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pyxis.mk
+    $(LOCAL_DIR)/arrow_pyxis.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_pyxis-user \
-    lineage_pyxis-userdebug \
-    lineage_pyxis-eng
+    arrow_pyxis-user \
+    arrow_pyxis-userdebug \
+    arrow_pyxis-eng
